@@ -7,7 +7,7 @@ An example collaborative project
 
 def is_50_in_list(low, high):
     """
-    Finds if 50 is within a range of values.
+    Finds whether 50 is within a range of values.
     """
     return 50 in range(low, high)
 
