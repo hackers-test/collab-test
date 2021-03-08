@@ -7,13 +7,9 @@ An example collaborative project
 
 def is_50_in_list(low, high):
     """
-    Loops over all values checking if it is 50
+    Finds if 50 is within a range of values.
     """
-    for i in range(low, high):
-        if i == 50:
-            return True
-    return False
-
+    return 50 in range(low, high)
 
 
 if __name__ == "__main__":
